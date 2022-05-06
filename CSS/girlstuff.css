@@ -24,17 +24,16 @@ p{
     font: bold 120% arial;
     color:deepskyblue;
 }
-p2{
-    margin:5px;
+p2 {
+    margin: 5px;
     font: 20px "Times New Roman";
-    text-align:left
-
+    text-align: left;
 }
 
 .transcard1 {
     border-radius: 25px;
     background-color: skyblue;
-    width: 30%;
+    width: 30vw;
     height: fit-content;
     display: flex;
     position: relative;
@@ -68,8 +67,8 @@ p2{
     background-color: #36393E;
     border-radius: 25px;
     position: relative;
-    height: 500px;
-    width: 300px;
+    height: 55vh;
+    width: 13vw;
     display: flex;
     box-sizing: border-box;
     top:5%;
