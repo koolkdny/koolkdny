@@ -1,21 +1,6 @@
 :root {
     --font: "Arial"
 }
-girlheading {
-    font:bolder 100px var(--font);
-    color:deepskyblue;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-girlsubheading {
-    font: bold 40px var(--font);
-    color: deepskyblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 
 h1{
     margin: 5px;
@@ -23,48 +8,75 @@ h1{
     color: deepskyblue;
     display:flex;
 }
+h2 {
+    color: lightpink;
+    font: bold 50px arial;
+    border-radius: 10px;
+    background-color: white;
+    width: fit-content;
+    border: 5px solid lightpink;
+    margin:5px;
+    display:flex;
+    align-items:center;
+}
 p{
     margin: 5px;
-    font: bold 18px arial;
+    font: bold 120% arial;
     color:deepskyblue;
 }
-small{
-    font:small 2px;
+p2{
+    margin:5px;
+    font: 20px "Times New Roman";
+    text-align:left
+
 }
 
-div.transcard1 {
+.transcard1 {
     border-radius: 25px;
     background-color: skyblue;
-    width: 600px;
-    height: 400px;
+    width: 30%;
+    height: fit-content;
     display: flex;
-    position:sticky;
-    left:2.5%;
-}
-div.transcard2 {
-    background-color: lightpink;
-    position:relative;
-    height:80%;
-    width:100%;
-    display:flex;
-    top:10%;
-}
-div.transcard3 {
-    background-color: white;
     position: relative;
-    height: 80%;
+    top: 8.5%;
+    left: 2.5%;
+    box-sizing: border-box;
+    padding: 2% 0 2% 0;
+    float: left;
+}
+.transcard2 {
+    background-color: lightpink;
+    position: relative;
+    height: fit-content;
     width: 100%;
     display: flex;
     top: 10%;
+    padding: 5% 0 5% 0;
+    box-sizing: border-box;
+}
+.transcard3 {
+    background-color: white;
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    top: 10%;
+    box-sizing: border-box;
 }
 
-div.discordsidebar {
+.discordsidebar {
     background-color: #36393E;
-    border-radius:25px;
-    position:absolute;
-    height:500px;
-    width:300px;
-    display:flex;
-    right:2.5%;
+    border-radius: 25px;
+    position: relative;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    box-sizing: border-box;
     top:5%;
+    right:2.5%;
+    float:right;
+}
+
+.roundcorners {
+    border-radius:25px
 }
