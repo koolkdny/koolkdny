@@ -38,8 +38,8 @@ p2 {
     height: fit-content;
     display: flex;
     position: relative;
-    top: 8.5%;
-    left: 2.5%;
+    top: 8.5vh;
+    left: 2.5vw;
     box-sizing: border-box;
     padding: 3vh 0 3vh 0;
     float: left;
@@ -73,7 +73,7 @@ p2 {
     display: flex;
     box-sizing: border-box;
     top:15vh;
-    right:2.5vw;
+    right:2em;
     float:right;
     margin: 2vh 2vw 2vh 2vw;
 }
