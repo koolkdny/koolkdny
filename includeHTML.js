@@ -9,20 +9,25 @@ function includeHTML()
         file = elements[i].getAttribute("add-prefab");
         if(file)
         {
+            console.log(file);
             xhttp = new XMLHttpRequest();
-            xhttp.onreadstatechange = function()
+            xhttp.onreadystatechange = function()
             {
+                console.log("AAA");
                 if(this.readyState == 4)
                 {
-                    if(this.status == 200) {elements[i].innerHTML = this.responseText}
+                    elements[i].remove("add-prefab");
+                    if(this.status == 200) {elements[i].parentElement.innerHTML = this.responseText + elements[i].parentElement.innerHTML}
                     if(this.status == 404) {elements[i].innerHTML = "404ERROR"}
                     console.log(this.status);
-                    elements[i].removeAttribute()
+                    
                     includeHTML();
                 }
             }
+            console.log("EHY");
             xhttp.open("GET", file, true)
             xhttp.send();
+            console.log("A");
             return;
         }
     }

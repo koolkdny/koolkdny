@@ -10,7 +10,7 @@ h1{
 }
 h2 {
     color: lightpink;
-    font: bold 50px arial;
+    font: bold .9em arial;
     border-radius: 10px;
     background-color: white;
     width: fit-content;
@@ -34,14 +34,14 @@ p2 {
 .transcard1 {
     border-radius: 25px;
     background-color: skyblue;
-    width: 30vw;
+    width: 30vmax;
     height: fit-content;
     display: flex;
     position: relative;
-    top: 8.5vh;
-    left: 2.5vw;
+    top: 8.5vmin;
+    left: 2.5vmax;
     box-sizing: border-box;
-    padding: 3vh 0 3vh 0;
+    padding: 3vh 0 5vh 0;
     float: left;
 }
 .transcard2 {
@@ -51,7 +51,7 @@ p2 {
     width: 100%;
     display: flex;
     top: 10%;
-    padding: 3vh 0 3vh 0;
+    padding: 3vh 0 5vh 0;
     box-sizing: border-box;
 }
 .transcard3 {
@@ -70,10 +70,11 @@ p2 {
     position: relative;
     height: 45vh;
     width: 15vw;
+    font-size: 2.5vmin;
     display: flex;
     box-sizing: border-box;
-    top:15vh;
-    right:2em;
+    top: 4ch;
+    right:2vw;
     float:right;
     margin: 2vh 2vw 2vh 2vw;
 }
@@ -91,5 +92,20 @@ p2 {
     padding: 2em;
     margin: 5em;
     top:2em;
+}
 
+.lexemberMenu {
+    background-color:white;
+    border-radius:  0.25em;
+    border-color: lightskyblue;
+    position: relative;
+    width:stretch;
+    height:stretch;
+    padding: 2em;
+    margin: 0.5em;
+    top:0.5em;
+    font-size: 150%;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
