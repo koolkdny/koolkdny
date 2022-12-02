@@ -9,11 +9,9 @@ function includeHTML()
         file = elements[i].getAttribute("add-prefab");
         if(file)
         {
-            console.log(file);
             xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function()
             {
-                console.log("AAA");
                 if(this.readyState == 4)
                 {
                     elements[i].remove("add-prefab");
@@ -24,10 +22,8 @@ function includeHTML()
                     includeHTML();
                 }
             }
-            console.log("EHY");
             xhttp.open("GET", file, true)
             xhttp.send();
-            console.log("A");
             return;
         }
     }
